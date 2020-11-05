@@ -1,0 +1,158 @@
+/*styling the body */
+body{
+    background-color: rgb(203, 237, 250);
+    margin: 0;
+    padding: 0;  
+}
+
+/*removing lables on the list */
+ul{
+    list-style: none;
+}
+
+/*styling the image on the home page */
+.image{
+    border-bottom-right-radius: 5px;
+    box-shadow: 0px 0px 15px;
+}
+
+
+/*Styling the nav-bar*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    background-color: black;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    padding: 0px, 5%;   
+}
+
+nav ul{
+    display: flex;
+}
+
+/*styling the nav bar links */
+nav ul li a{
+margin: 30px;
+font-family: Arial;
+text-decoration: none;
+color: white;
+font-size: 20px;
+font-weight: 900;
+}
+
+/*styling the nav bar links */
+nav a:hover{
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px 4px 4px 4px;
+    color: black;
+}
+
+/*styling a current active link */
+.active{
+    font-weight: bold;
+    color:lightblue;
+}
+
+.welcome-container{
+    width: 80%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.8);
+    display: flex;
+    margin: 1% auto 20px auto;
+    position: relative;
+       
+}
+
+.welcome-text{
+    width: 550px;
+    text-align: center;
+    
+}
+
+.welcome-text a{
+    text-decoration: none;
+    color: darkgreen;
+}
+
+
+.welcome-text p:nth-child(1){
+    font-size: 30px;
+    font-family: fantasy;
+    font-weight: bolder;
+}
+
+.welcome-text p:nth-child(2), 
+.welcome-text p:nth-child(3),
+.welcome-text p:nth-child(4){
+    font-size: 18px;
+    font-family: fantasy;
+    font-weight: normal;
+}
+
+.text-container{
+    background-color: rgb(207, 228, 235);
+    border-radius: 10px 10px 10px 10px;
+    border-bottom-style: none;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.9);
+    margin: 0%;
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.text-container p:nth-child(1){
+    font-family: Calibri;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+}
+
+.text-container p:nth-child(2){
+    font-family: fantasy;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: black;
+    font-size: 20px;
+}
+
+.text-container{
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-13%,-42%);
+}
+
+span{
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: bolder;
+    color: rgb(12, 14, 12);
+}
+
+.content{
+    float: left;
+    font-family: fantasy;
+    font-size: 20px;
+    font-weight: 700;   
+}
+
+.content a{
+    text-decoration: none;
+}
+
+/*styling the footer */
+footer {
+    
+    
+    text-align: center;
+    background-color: rgb(193, 222, 231);
+    color: black;
+    
+   
+  }
+  
